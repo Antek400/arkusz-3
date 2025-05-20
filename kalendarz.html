@@ -1,0 +1,98 @@
+<!DOCTYPE html>
+<html lang="pl">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Kalendarz</title>
+</head>
+<body>
+
+    <header>
+        <h1>Dni, miesiące, lata...</h1>
+    </header>
+
+    <section id="napis">
+        <p>Tu brakuje mi JS ale sor powiedzial ze nie robimy bo to jest podpiete do php jakos tak</p>
+    </section>
+
+    <div id="trzy_bloki">
+        <div id="blok1">
+            <table>
+                <tr>
+                    <th>liczba dni</th><th>miesiąc</th>
+                </tr>
+                <tr>
+                    <td rowspan="7">31</td><td>styczeń</td>
+                </tr>
+                <tr>
+                    <td>marzec</td>
+                </tr>
+                <tr>
+                    <td>maj</td>
+                </tr>
+                <tr>
+                    <td>lipiec</td>
+                </tr>
+                <tr>
+                    <td>sierpień</td>
+                </tr>
+                <tr>
+                    <td>październik</td>
+                </tr>
+                <tr>
+                    <td>grudzień</td>
+                </tr>
+                <tr>
+                    <td rowspan="4">30</td><td>kwiecień</td>
+                </tr>
+                <tr>
+                    <td>czerwiec</td>
+                </tr>
+                <tr>
+                    <td>wrzesień</td>
+                </tr>
+                <tr>
+                    <td>listopad</td>
+                </tr>
+                <tr>
+                    <td>28 lub 29</td><td>luty</td>
+                </tr>
+            </table>
+        </div>
+        <div id="blok2">
+        <h2>Sprawdź kto ma urodziny</h2>
+            <form action="/submit" method="post">
+                <input type="date" name="date" placeholder="dd.mm.2024">
+                <button type="submit">Wyślij</button>
+            </form>
+        </div>
+        <div id="blok3">
+            <a href="https://pl.wikipedia.org/wiki/Kalendarz_Maj" target="_blank">
+            <img src="kalendarz.gif" alt="Kalendarz majów">
+            </a>
+            <h2>Rodzaje kalendarzy</h2>
+            <ol>
+                <li>słoneczny</li>
+                    <ul>
+                        <li>kalendarz majóws</li>
+                        <li>jubliański</li>
+                        <li>gregoriański</li>
+                    </ul>
+                <li>księżycowy</li>
+                <ul>
+                        <li>starogrecki</li>
+                        <li>babiloński</li>
+                </ul>
+            </ol>
+        </div>
+    </div>
+
+    <footer>
+        <p>Strone opracował:0000000000</p>
+    </footer>
+
+
+    
+</body>
+</html>
